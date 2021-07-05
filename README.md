@@ -47,8 +47,11 @@ Input            |  Output
   ```
   
   <li>If you are using Google Colab upload all the files to Google Drive</li>
-  <li></li>
-  
+  <li>
+    Run predict_video.py (Google colab)
+  </li>
+    
+    !python3 predict_video.py  --save_weights_path=WeightsTracknet/model.1 --input_video_path=VideoInput/video_input1t.mp4 --output_video_path=VideoOutput/video_output.mp4 --n_classes=256 --path_yolo_classes=Yolov3/yolov3.txt --path_yolo_weights=Yolov3/yolov3.weights --path_yolo_config=Yolov3/yolov3.cfg
   
 </ol>
   
