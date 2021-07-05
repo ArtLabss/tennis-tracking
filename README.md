@@ -12,7 +12,7 @@
   <li>Detect the players</li>
 </ul>
 
-<p>To track the ball we used <a href='https://nol.cs.nctu.edu.tw:234/open-source/TrackNet'>TrackNet</a> - deep learning network for tracking high-speed objects. Line segment and box detection using <a href='https://github.com/navervision/mlsd'>M-LSD</a> method for court detection and for players detection yolov3 was used.</p>
+<p>To track the ball we used <a href='https://nol.cs.nctu.edu.tw:234/open-source/TrackNet'>TrackNet</a> - deep learning network for tracking high-speed objects. Line segment and box detection using <a href='https://github.com/navervision/mlsd'>M-LSD</a> and for players detection yolov3 was used.</p>
 
 
 <h3>Example using the <a href="VideoInput/video_input1.mp4">sample video</a></h3>
