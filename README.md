@@ -19,7 +19,7 @@
   
 Input            |  Output
 :-------------------------:|:-------------------------:
-![input_img](https://github.com/ArtLabss/tennis-tracking/blob/eb0d21c54467550e52bf77e66091ecff0681605d/input.gif)  |  ![output_img](https://github.com/ArtLabss/tennis-tracking/blob/eb0d21c54467550e52bf77e66091ecff0681605d/output.gif)
+![input_img](https://github.com/ArtLabss/tennis-tracking/blob/83197c0a682734cf6bb123dcae4132e178beccab/.files/input.gif)  |  ![output_img](https://github.com/ArtLabss/tennis-tracking/blob/83197c0a682734cf6bb123dcae4132e178beccab/.files/output.gif)
 
 <h3>How to run</h3>
 
