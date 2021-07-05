@@ -50,9 +50,33 @@ Input            |  Output
   <li>
     Run predict_video.py (Google colab), you may need to change the folder path/name
   </li>
-    
-    !python3 predict_video.py  --save_weights_path=WeightsTracknet/model.1 --input_video_path=VideoInput/video_input1t.mp4 --output_video_path=VideoOutput/video_output.mp4 --n_classes=256 --path_yolo_classes=Yolov3/yolov3.txt --path_yolo_weights=Yolov3/yolov3.weights --path_yolo_config=Yolov3/yolov3.cfg
-  
 </ol>
   
+  ```
+   !python3 predict_video.py  --save_weights_path=WeightsTracknet/model.1 --input_video_path=VideoInput/video_input1t.mp4 --output_video_path=VideoOutput/video_output.mp4 --n_classes=256 --path_yolo_classes=Yolov3/yolov3.txt --path_yolo_weights=Yolov3/yolov3.weights --path_yolo_config=Yolov3/yolov3.cfg
+  ```
+  
+  
+<h3>Acknowledgements</h3>
+  
+<p>To track the ball we used <a href='https://nol.cs.nctu.edu.tw:234/open-source/TrackNet'>TrackNet</a> - deep learning network for tracking high-speed objects
+  <br>For court detection line segment and box detection using <a href='https://github.com/navervision/mlsd'>M-LSD</a> was implemented
+  <br>And for the players yolov3 was used.
+</p>
+  
+<h3>References</h3>
+- Yu-Chuan Huang, "TrackNet: Tennis Ball Tracking from Broadcast Video by Deep Learning Networks," Master Thesis, advised by Tsì-Uí İk and Guan-Hua Huang, National Chiao Tung University, Taiwan, April 2018.
+- Yu-Chuan Huang, I-No Liao, Ching-Hsuan Chen, Tsì-Uí İk, and Wen-Chih Peng, "TrackNet: A Deep Learning Network for Tracking High-speed and Tiny Objects in Sports Applications," in the IEEE International Workshop of Content-Aware Video Analysis (CAVA 2019) in conjunction with the 16th IEEE International Conference on Advanced Video and Signal-based Surveillance (AVSS 2019), 18-21 September 2019, Taipei, Taiwan.
+- 
 
+```
+@misc{gu2021realtime,
+    title={Towards Real-time and Light-weight Line Segment Detection},
+    author={Geonmo Gu and Byungsoo Ko and SeoungHyun Go and Sung-Hyun Lee and Jingeun Lee and Minchul Shin},
+    year={2021},
+    eprint={2106.00186},
+    archivePrefix={arXiv},
+    primaryClass={cs.CV}
+}
+  ```
+</ol>
