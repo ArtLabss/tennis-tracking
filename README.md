@@ -5,8 +5,12 @@
 ![Watchers](https://img.shields.io/github/watchers/ArtLabss/tennis-tracking.svg)
 ![Last Commit](https://img.shields.io/github/last-commit/ArtLabss/tennis-tracking.svg) 
 
-<h3>About</h3>
-<p>Track the ball, detect court lines and the players</p>
+<h3>Objectvies</h3>
+<ul>
+  <li>Track the ball </li>
+  <li>Detect court lines </li>
+  <li>Detect the players</li>
+</ul>
 
 
 Input            |  Output
