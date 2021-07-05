@@ -14,7 +14,7 @@
 
 
 
-<h3 align='center'>Example using the <a href="VideoInput/video_input1.mp4">sample video</a></h3>
+<h3>Example using the <a href="VideoInput/video_input1.mp4">sample video</a></h3>
 
   
 Input            |  Output
