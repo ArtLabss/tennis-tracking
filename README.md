@@ -12,6 +12,7 @@
   <li>Detect the players</li>
 </ul>
 
+<p>To track the ball we used <a href='https://nol.cs.nctu.edu.tw:234/open-source/TrackNet'>TrackNet</a> - deep learning network for tracking high-speed objects. Line segment and box detection using <a href='https://github.com/navervision/mlsd'>M-LSD</a> method for court detection and for players detection yolov3 was used.</p>
 
 
 <h3>Example using the <a href="VideoInput/video_input1.mp4">sample video</a></h3>
@@ -30,7 +31,7 @@ Input            |  Output
     Clone this repository
   </li>
   
-  ```
+  ```git
   git clone https://github.com/ArtLabss/tennis-tracking
   ```
   
@@ -42,26 +43,41 @@ Input            |  Output
     Install the requirements
   </li>
   
-  ```
+  ```python
   pip install -r requirements.txt
   ```
   
   <li>If you are using Google Colab upload all the files to Google Drive</li>
   
+   <li>
+    Create a Google Colaboratory Notebook in the same directory as <code>predict_video.py</code> and connect it to Google drive
+  </li>
+  
+  ```python
+  from google.colab import drive
+  drive.mount('/content/drive')
+  ```
+  
   <li>
-    Run predict_video.py (Google colab), you may need to change the folder path/name
+    Change the working directory to the one where the Colab Notebook and <code>predict_video.py</code> are. In my case,
+  </li>
+  
+  ```python
+  import os 
+  os.chdir('MyDrive/Colab Notebooks/tennis-tracking')
+  ```
+  
+  <li>
+    Run predict_video.py
   </li>
   
   ```
    !python3 predict_video.py  --save_weights_path=WeightsTracknet/model.1 --input_video_path=VideoInput/video_input1.mp4 --output_video_path=VideoOutput/video_output.mp4 --n_classes=256 --path_yolo_classes=Yolov3/yolov3.txt --path_yolo_weights=Yolov3/yolov3.weights --path_yolo_config=Yolov3/yolov3.cfg
   ```
-  <p>After the compilation is complete, a new video will be created in VideoOutput folder</p>
+  
+  <p>After the compilation is completed, a new video will be created in VideoOutput folder</p>
   
 </ol>
-
-<h3>Acknowledgements</h3>
-  
-<p>To track the ball we used <a href='https://nol.cs.nctu.edu.tw:234/open-source/TrackNet'>TrackNet</a> - deep learning network for tracking high-speed objects. Line segment and box detection using <a href='https://github.com/navervision/mlsd'>M-LSD</a> method for court detection and for players detection yolov3 was used.</p>
  
      
 <h3>References</h3>
