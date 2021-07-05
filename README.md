@@ -22,4 +22,21 @@ Input            |  Output
 ![input_img](https://github.com/ArtLabss/tennis-tracking/blob/eb0d21c54467550e52bf77e66091ecff0681605d/input.gif)  |  ![output_img](https://github.com/ArtLabss/tennis-tracking/blob/eb0d21c54467550e52bf77e66091ecff0681605d/output.gif)
 
 <h3>How to run</h3>
+<ol>
+  <li>Clone this repository</li>
+  
+  ```
+  git clone https://github.com/ArtLabss/tennis-tracking
+  ```
+  
+  <li>Install the requirements</li>
+  
+  ```
+  pip install -r requirements.txt
+  ```
+  
+  <li>Download yolov3 weights (237 MB) from <a href="https://pjreddie.com/media/files/yolov3.weights">here</a> and add it to <a href="/Yolov3">Yolov3 directory</a>. </li>
+  
+</ol>
+  
 
