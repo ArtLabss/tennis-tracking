@@ -1,0 +1,12 @@
+requests==2.23.0
+opencv_contrib_python==4.1.2.30
+scipy==1.4.1
+Keras==2.4.3
+pandas==1.1.5
+torch==1.9.0+cu102
+Flask==1.1.4
+tensorflow==2.5.0
+imutils==0.5.4
+numpy==1.19.5
+gradio==2.1.0
+Pillow==8.3.0
