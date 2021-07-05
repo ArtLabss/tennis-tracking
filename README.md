@@ -22,6 +22,7 @@ Input            |  Output
 ![input_img](https://github.com/ArtLabss/tennis-tracking/blob/eb0d21c54467550e52bf77e66091ecff0681605d/input.gif)  |  ![output_img](https://github.com/ArtLabss/tennis-tracking/blob/eb0d21c54467550e52bf77e66091ecff0681605d/output.gif)
 
 <h3>How to run</h3>
+This project requires compatible <b>GPU</b> to install tensorflow, you can run it on your local machine in case you have one or use <a href='https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwissLL5-MvxAhXwlYsKHbkBDEUQFnoECAMQAw&url=https%3A%2F%2Fcolab.research.google.com%2Fnotebooks%2F&usg=AOvVaw0eDNVclINNdlOuD-YTYiiB'>Google Colaboratory</a>
 <ol>
   <li>Clone this repository</li>
   
@@ -35,7 +36,9 @@ Input            |  Output
   pip install -r requirements.txt
   ```
   
-  <li>Download yolov3 weights (237 MB) from <a href="https://pjreddie.com/media/files/yolov3.weights">here</a> and add it to <a href="/Yolov3">Yolov3 directory</a>. </li>
+  <li>Download yolov3 weights (237 MB) from <a href="https://pjreddie.com/media/files/yolov3.weights">here</a> and add it to your <a href="/Yolov3">Yolov3 directory</a>. </li>
+  
+  <li></li>
   
 </ol>
   
