@@ -13,6 +13,10 @@
 </ul>
 
 
+
+<h3>Example using the <a href="VideoInput/video_input1.mp4">sample video</a></h3>
+
+  
 Input            |  Output
 :-------------------------:|:-------------------------:
 ![input_img](https://github.com/ArtLabss/tennis-tracking/blob/eb0d21c54467550e52bf77e66091ecff0681605d/input.gif)  |  ![output_img](https://github.com/ArtLabss/tennis-tracking/blob/eb0d21c54467550e52bf77e66091ecff0681605d/output.gif)
