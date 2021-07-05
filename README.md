@@ -51,12 +51,14 @@ Input            |  Output
   <li>
     Run predict_video.py (Google colab), you may need to change the folder path/name
   </li>
-</ol>
   
   ```
    !python3 predict_video.py  --save_weights_path=WeightsTracknet/model.1 --input_video_path=VideoInput/video_input1t.mp4 --output_video_path=VideoOutput/video_output.mp4 --n_classes=256 --path_yolo_classes=Yolov3/yolov3.txt --path_yolo_weights=Yolov3/yolov3.weights --path_yolo_config=Yolov3/yolov3.cfg
   ```
+  <p>After the compilation is complete, a new video will be created in VideoOutput folder</p>
   
+</ol>
+
 <h3>Acknowledgements</h3>
   
 <p>To track the ball we used <a href='https://nol.cs.nctu.edu.tw:234/open-source/TrackNet'>TrackNet</a> - deep learning network for tracking high-speed objects. For court detection line segment and box detection using <a href='https://github.com/navervision/mlsd'>M-LSD</a> was implemented and for the players yolov3 was used.</p>
