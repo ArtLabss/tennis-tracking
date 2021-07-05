@@ -11,8 +11,8 @@ import torch
 import sys
 
 # sys.path.append(os.path.dirname(__file__))
-from models.mbv2_mlsd_tiny import  MobileV2_MLSD_Tiny
-from models.mbv2_mlsd_large import  MobileV2_MLSD_Large
+from modells.mbv2_mlsd_tiny import  MobileV2_MLSD_Tiny
+from modells.mbv2_mlsd_large import  MobileV2_MLSD_Large
 
 from utils import  pred_lines
 
@@ -24,10 +24,10 @@ print(2)
 def draw_line(img):
     current_dir = os.getcwd()
     dsize = img.shape[1], img.shape[0]
-    # model_path = current_dir+'/models/mlsd_tiny_512_fp32.pth'
+    # model_path = current_dir+'/modells/mlsd_tiny_512_fp32.pth'
     # model = MobileV2_MLSD_Tiny().cuda().eval()
 
-    model_path = current_dir + '/models/mlsd_large_512_fp32.pth'
+    model_path = current_dir + '/modells/mlsd_large_512_fp32.pth'
     model = MobileV2_MLSD_Large().cuda().eval()
 
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
