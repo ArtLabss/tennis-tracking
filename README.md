@@ -61,7 +61,7 @@ Input            |  Output
 
 <h3>Acknowledgements</h3>
   
-<p>To track the ball we used <a href='https://nol.cs.nctu.edu.tw:234/open-source/TrackNet'>TrackNet</a> - deep learning network for tracking high-speed objects. For court detection line segment and box detection using <a href='https://github.com/navervision/mlsd'>M-LSD</a> was implemented and for the players yolov3 was used.</p>
+<p>To track the ball we used <a href='https://nol.cs.nctu.edu.tw:234/open-source/TrackNet'>TrackNet</a> - deep learning network for tracking high-speed objects. Line segment and box detection using <a href='https://github.com/navervision/mlsd'>M-LSD</a> method for court detection and for players detection yolov3 was used. Last, helpful repository by <a href='https://github.com/MaximeBataille/tennis_tracking'>MaximBataille</a></p>
  
      
 <h3>References</h3>
