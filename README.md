@@ -78,6 +78,15 @@ Input            |  Output
   <p>After the compilation is completed, a new video will be created in <a href="/VideoOutput" target="_blank">VideoOutput folder</a></p>
   
 </ol>
+
+<h3>Further Developments</h3>
+<ul>
+  <li>Improve line detection of the court and remove overlapping lines</li>
+  <li>Algorithm fails to detect players when the court colors aren't similar to the sample video</li>
+  <li>Don't detect the ballboys/ballgirls</li>
+  <li>Don't contour the banners</li>
+  <li>Detect players on videos with different angles</li>
+</ul>
  
      
 <h3>References</h3>
