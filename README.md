@@ -24,7 +24,7 @@ Input            |  Output
 
 <h3>How to run</h3>
 
-<p>This project requires compatible <b>GPU</b> to install tensorflow, you can run it on your local machine in case you have one or use <a href='https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwissLL5-MvxAhXwlYsKHbkBDEUQFnoECAMQAw&url=https%3A%2F%2Fcolab.research.google.com%2Fnotebooks%2F&usg=AOvVaw0eDNVclINNdlOuD-YTYiiB'>Google Colaboratory</a> with <b>Runtime Type</b> changed to GPU.</p>
+<p>This project requires compatible <b>GPU</b> to install tensorflow, you can run it on your local machine in case you have one or use <a href='https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwissLL5-MvxAhXwlYsKHbkBDEUQFnoECAMQAw&url=https%3A%2F%2Fcolab.research.google.com%2Fnotebooks%2F&usg=AOvVaw0eDNVclINNdlOuD-YTYiiB'>Google Colaboratory</a> with <b>Runtime Type</b> changed to <b>GPU</b>.</p>
   
 <ol>
   <li>
@@ -79,18 +79,34 @@ Input            |  Output
   
 </ol>
 
+
 <h3>Further Developments</h3>
 <ul>
-  <li>Improve line detection of the court and remove overlapping lines</li>
-  <li>Algorithm fails to detect players when the court colors aren't similar to the sample video</li>
-  <li>Don't detect the ballboys/ballgirls</li>
-  <li>Don't contour the banners</li>
+  <li><strike>Improve line detection of the court and remove overlapping lines</strike></li>
+  <li><strike>Algorithm fails to detect players when the court colors aren't similar to the sample video</strike></li>
+  <li><strike>Don't detect the ballboys/ballgirls</strike></li>
+  <li><strike>Don't contour the banners</strike></li>
   <li>Detect players on videos with different angles</li>
+  <li>Map all ball coordinates on the court</li>
+</ul>
+
+<h3>Current Drawbacks</h3>
+<ul>
+  <li>Slow algorithms (to process 15 second video (6.1 Mb) it takes 15 minutes)</li>
+  <li>Algorithm work only on official match videos</li>
+</ul>
+
+<h3>What's new?</h3>
+<ul>
+  <li>Court line detection improved</li>
+  <li>Player detection improved</li>
+  <li>The algorithm now works practically with any court colors</li>
 </ul>
  
      
-<h3>References</h3>
 
+    
+<h3>References</h3>
 - Yu-Chuan Huang, "TrackNet: Tennis Ball Tracking from Broadcast Video by Deep Learning Networks," Master Thesis, advised by Tsì-Uí İk and Guan-Hua Huang, National Chiao Tung University, Taiwan, April 2018. 
 - Yu-Chuan Huang, I-No Liao, Ching-Hsuan Chen, Tsì-Uí İk, and Wen-Chih Peng, "TrackNet: A Deep Learning Network for Tracking High-speed and Tiny Objects in Sports Applications," in the IEEE International Workshop of Content-Aware Video Analysis (CAVA 2019) in conjunction with the 16th IEEE International Conference on Advanced Video and Signal-based Surveillance (AVSS 2019), 18-21 September 2019, Taipei, Taiwan.
 - Joseph Redmon, Ali Farhadi, "YOLOv3: An Incremental Improvement", University of Washington, https://arxiv.org/pdf/1804.02767.pdf
