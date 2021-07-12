@@ -15,11 +15,12 @@
 <p>To track the ball we used <a href='https://nol.cs.nctu.edu.tw:234/open-source/TrackNet'>TrackNet</a> - deep learning network for tracking high-speed objects. Line segment and box detection using <a href='https://github.com/navervision/mlsd'>M-LSD</a> and for players detection yolov3 was used.</p>
 
 
-<h3>Example using the <a href="VideoInput/video_input1.mp4">sample video</a></h3>
+<h3>Example using <a href="https://github.com/ArtLabss/tennis-tracking/tree/main/VideoInput">sample videos</a></h3>
 
   
 Input            |  Output
 :-------------------------:|:-------------------------:
+![input_img](https://github.com/ArtLabss/tennis-tracking/blob/83197c0a682734cf6bb123dcae4132e178beccab/.files/input.gif)  |  ![output_img](https://github.com/ArtLabss/tennis-tracking/blob/0f684fdeef96a715984dc74b62b961f68ff95edc/VideoOutput/ezgif.com-gif-maker.gif)
 ![input_img](https://github.com/ArtLabss/tennis-tracking/blob/83197c0a682734cf6bb123dcae4132e178beccab/.files/input.gif)  |  ![output_img](https://github.com/ArtLabss/tennis-tracking/blob/0f684fdeef96a715984dc74b62b961f68ff95edc/VideoOutput/ezgif.com-gif-maker.gif)
 
 <h3>How to run</h3>
