@@ -20,7 +20,7 @@
   
 Input            |  Output
 :-------------------------:|:-------------------------:
-![input_img](https://github.com/ArtLabss/tennis-tracking/blob/83197c0a682734cf6bb123dcae4132e178beccab/.files/input.gif)  |  ![output_img](https://github.com/ArtLabss/tennis-tracking/blob/83197c0a682734cf6bb123dcae4132e178beccab/.files/output.gif)
+![input_img](https://github.com/ArtLabss/tennis-tracking/blob/83197c0a682734cf6bb123dcae4132e178beccab/.files/input.gif)  |  ![output_img](https://github.com/ArtLabss/tennis-tracking/blob/0f684fdeef96a715984dc74b62b961f68ff95edc/VideoOutput/ezgif.com-gif-maker.gif)
 
 <h3>How to run</h3>
 
