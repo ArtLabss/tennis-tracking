@@ -20,8 +20,9 @@
   
 Input            |  Output
 :-------------------------:|:-------------------------:
-![input_img](https://github.com/ArtLabss/tennis-tracking/blob/83197c0a682734cf6bb123dcae4132e178beccab/.files/input.gif)  |  ![output_img](https://github.com/ArtLabss/tennis-tracking/blob/0f684fdeef96a715984dc74b62b961f68ff95edc/VideoOutput/ezgif.com-gif-maker.gif)
-![input_img](https://github.com/ArtLabss/tennis-tracking/blob/83197c0a682734cf6bb123dcae4132e178beccab/.files/input.gif)  |  ![output_img](https://github.com/ArtLabss/tennis-tracking/blob/0f684fdeef96a715984dc74b62b961f68ff95edc/VideoOutput/ezgif.com-gif-maker.gif)
+![input_img1](https://github.com/ArtLabss/tennis-tracking/blob/00cfe10b18db1e6a68800921dfbda010f90a74bb/VideoOutput/ezgif.com-gif-maker(3).gif)  |  ![output_img1](https://github.com/ArtLabss/tennis-tracking/blob/0f684fdeef96a715984dc74b62b961f68ff95edc/VideoOutput/ezgif.com-gif-maker.gif)
+![input_img2](https://github.com/ArtLabss/tennis-tracking/blob/579fb3344935bbf4c5d08e27c99ffc6b56bed896/VideoOutput/ezgif.com-gif-maker(1).gif)  |  ![output_img2](https://github.com/ArtLabss/tennis-tracking/blob/579fb3344935bbf4c5d08e27c99ffc6b56bed896/VideoOutput/ezgif.com-gif-maker(2).gif)
+![input_img3](https://github.com/ArtLabss/tennis-tracking/blob/06179bdd29d4424f5e19e5600802f853aaa86f22/VideoOutput/monteCarlo_input.gif)  |  ![output_img3](https://github.com/ArtLabss/tennis-tracking/blob/06179bdd29d4424f5e19e5600802f853aaa86f22/VideoOutput/monteCarlo_output.gif)
 
 <h3>How to run</h3>
 
@@ -81,6 +82,13 @@ Input            |  Output
 </ol>
 
 
+<h3>What's new?</h3>
+<ul>
+  <li>Court line detection improved</li>
+  <li>Player detection improved</li>
+  <li>The algorithm now works practically with any court colors</li>
+</ul>
+
 <h3>Further Developments</h3>
 <ul>
   <li><strike>Improve line detection of the court and remove overlapping lines</strike></li>
@@ -95,13 +103,6 @@ Input            |  Output
 <ul>
   <li>Slow algorithms (to process 15 second video (6.1 Mb) it takes 15 minutes)</li>
   <li>Algorithm work only on official match videos</li>
-</ul>
-
-<h3>What's new?</h3>
-<ul>
-  <li>Court line detection improved</li>
-  <li>Player detection improved</li>
-  <li>The algorithm now works practically with any court colors</li>
 </ul>
  
      
