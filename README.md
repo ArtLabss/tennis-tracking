@@ -102,7 +102,7 @@ Input            |  Output
 <h3>Current Drawbacks</h3>
 <ul>
   <li>Slow algorithms (to process 15 second video (6.1 Mb) it takes 15 minutes)</li>
-  <li>Algorithm work only on official match videos</li>
+  <li>Algorithm works only on official match videos</li>
 </ul>
  
      
