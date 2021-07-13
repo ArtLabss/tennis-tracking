@@ -78,6 +78,7 @@ Input            |  Output
   ```
   
   <p>After the compilation is completed, a new video will be created in <a href="/VideoOutput" target="_blank">VideoOutput folder</a></p>
+  <p><i>P.S. If you stumble upon any <b>error</b> or have any questions feel free to open a new <a href='https://github.com/ArtLabss/tennis-tracking/issues'>Issue</a> </i></p>
   
 </ol>
 
