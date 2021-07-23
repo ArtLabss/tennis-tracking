@@ -97,7 +97,7 @@ Input            |  Output
   <li><strike>Don't detect the ballboys/ballgirls</strike></li>
   <li><strike>Don't contour the banners</strike></li>
   <li>Detect players on videos with different angles</li>
-  <li>Map all ball coordinates on the court</li>
+  <li>Find the coordinates of the ball touching the court and display them</li>
 </ul>
 
 <h3>Current Drawbacks</h3>
