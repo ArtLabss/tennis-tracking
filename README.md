@@ -98,6 +98,8 @@ Input            |  Output
   <li><strike>Don't contour the banners</strike></li>
   <li>Detect players on videos with different angles</li>
   <li>Find the coordinates of the ball touching the court and display them</li>
+  <li>Code Optimization</li>
+  <li>Court mini-map with all the events</li>
 </ul>
 
 <h3>Current Drawbacks</h3>
