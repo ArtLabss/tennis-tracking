@@ -99,12 +99,12 @@ Input            |  Output
   <li>Detect players on videos with different angles</li>
   <li>Find the coordinates of the ball touching the court and display them</li>
   <li>Code Optimization</li>
-  <li>Court mini-map with all the events</li>
+  <li>Dynamic court mini-map with players and the ball</li>
 </ul>
 
 <h3>Current Drawbacks</h3>
 <ul>
-  <li>Slow algorithms (to process 15 second video (6.1 Mb) it takes 15 minutes)</li>
+  <li>Slow algorithms (to process 15 second video (6.1 Mb) it takes <strike>36 minutes</strike> 16 minutes)</li>
   <li>Algorithm works only on official match videos</li>
 </ul>
  
