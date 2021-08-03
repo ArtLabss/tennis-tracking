@@ -142,10 +142,7 @@ frame_i = 0
 
 # while (True):
 for img in frames:
-    print('Percentage of video processed : {}'.format(round( (currentFrame / total) * 100, 2)))
-    # capture frame-by-frame
-    video.set(1, currentFrame);
-    # ret, img = video.read()
+    print('Percentage of video processed : {}'.format(round( (currentFrame / total) * 100, 2)))Maio
     frame_i += 1
 
     # detect the ball
