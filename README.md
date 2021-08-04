@@ -88,7 +88,7 @@ Input            |  Output
   <li>Court line detection improved</li>
   <li>Player detection improved</li>
   <li>The algorithm now works practically with any court colors</li>
-  <li>Requires 10 minutes less than the previous algorithm</li>
+  <li>Faster algorithm</li>
 </ul>
 
 <h3>Further Developments</h3>
