@@ -23,24 +23,16 @@ parser = argparse.ArgumentParser()
 parser.add_argument("--input_video_path", type=str)
 parser.add_argument("--output_video_path", type=str, default="")
 
-parser.add_argument("--save_weights_path", type=str)
-parser.add_argument("--n_classes", type=int)
-
-parser.add_argument("--path_yolo_classes", type=str)
-parser.add_argument("--path_yolo_weights", type=str)
-parser.add_argument("--path_yolo_config", type=str)
-
 args = parser.parse_args()
 
 input_video_path = args.input_video_path
 output_video_path = args.output_video_path
 
-save_weights_path = args.save_weights_path
-n_classes = args.n_classes
-
-yolo_classes = args.path_yolo_classes
-yolo_weights = args.path_yolo_weights
-yolo_config = args.path_yolo_config
+n_classes = 256
+save_weights_path = 'WeightsTracknet/model.1'
+yolo_classes = 'Yolov3/yolov3.txt'
+yolo_weights = 'Yolov3/yolov3.weights'
+yolo_config = 'Yolov3/yolov3.cfg'
 
 if output_video_path == "":
     # output video in same path
