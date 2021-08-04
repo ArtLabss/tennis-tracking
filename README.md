@@ -74,7 +74,7 @@ Input            |  Output
   </li>
   
   ```
-   !python3 predict_video.py  --input_video_path=VideoInput/video_input3.mp4 --output_video_path=VideoOutput/video_output.mp4 
+   !python3 predict_video.py --input_video_path=VideoInput/video_input3.mp4 --output_video_path=VideoOutput/video_output.mp4 
   ```
   
   <p>After the compilation is completed, a new video will be created in <a href="/VideoOutput" target="_blank">VideoOutput folder</a></p>
