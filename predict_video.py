@@ -112,8 +112,6 @@ while True:
     else: # then track it
       lines = court_detector.track_court(frame)
 
-    print(frame_i, '\n', lines)
-
     detection_model.detect_player_1(frame, court_detector)
     detection_model.detect_top_persons(frame, court_detector, frame_i)
     
@@ -134,8 +132,6 @@ detection_model.find_player_2_box()
 # second part 
 player1_boxes = detection_model.player_1_boxes
 player2_boxes = detection_model.player_2_boxes
-print('Player 1 Boxes :', player1_boxes)
-
 
 video = cv2.VideoCapture(input_video_path)
 frame_i = 0
