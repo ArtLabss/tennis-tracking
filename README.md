@@ -42,11 +42,19 @@ Input            |  Output
   </li>
   
   <li>
-    Install the requirements
+    Install the requirements using pip 
   </li>
   
   ```python
   pip install -r requirements.txt
+  ```
+  
+   <li>
+    Run the following command in the command line
+  </li>
+  
+  ```python
+  python predict_video.py --input_video_path=VideoInput/video_input3.mp4 --output_video_path=VideoOutput/video_output.mp4 
   ```
   
   <li>If you are using Google Colab upload all the files to Google Drive</li>
@@ -67,6 +75,14 @@ Input            |  Output
   ```python
   import os 
   os.chdir('MyDrive/Colab Notebooks/tennis-tracking')
+  ```
+  
+  <li>
+    Install the requirements
+  </li>
+  
+  ```python
+  !pip install -r requirements.txt
   ```
   
   <li>
