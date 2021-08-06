@@ -86,7 +86,7 @@ Input            |  Output
   ```
   
   <li>
-    Inside the notebook run predict_video.py
+    Inside the notebook run <code>predict_video.py</code>
   </li>
   
   ```
