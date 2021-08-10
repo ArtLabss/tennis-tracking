@@ -107,6 +107,7 @@ Input            |  Output
   <li>Faster algorithm</li>
   <li>Dynamic Mini-Map with players and ball added, to activate set <code>--minimap=1</code></li>
   
+  
 </ul>
 
 <h3>Further Developments</h3>
@@ -118,7 +119,8 @@ Input            |  Output
   <li>Detect players on videos with different angles</li>
   <li>Find the coordinates of the ball touching the court and display them</li>
   <li>Code Optimization</li>
-  <li>Dynamic court mini-map with players and the ball</li>
+  <li><strike>Dynamic court mini-map with players and the ball</strike></li>
+  ![mini-map](https://github.com/ArtLabss/tennis-tracking/blob/00cfe10b18db1e6a68800921dfbda010f90a74bb/VideoOutput/ezgif.com-gif-maker(3).gif)
 </ul>
 
 <h3>Current Drawbacks</h3>
