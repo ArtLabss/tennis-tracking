@@ -106,8 +106,9 @@ Input            |  Output
   <li>The algorithm now works practically with any court colors</li>
   <li>Faster algorithm</li>
   <li>Dynamic Mini-Map with players and ball added, to activate set <code>--minimap=1</code></li>
-  
-  
+<p align='center'>
+  <img src='https://github.com/ArtLabss/tennis-tracking/blob/327a128f52e5ded34ce507bb07310f56537c88cd/VideoOutput/minimap.gif'>
+</p>
 </ul>
 
 <h3>Further Developments</h3>
@@ -120,7 +121,6 @@ Input            |  Output
   <li>Find the coordinates of the ball touching the court and display them</li>
   <li>Code Optimization</li>
   <li><strike>Dynamic court mini-map with players and the ball</strike></li>
-  ![mini-map](https://github.com/ArtLabss/tennis-tracking/blob/00cfe10b18db1e6a68800921dfbda010f90a74bb/VideoOutput/ezgif.com-gif-maker(3).gif)
 </ul>
 
 <h3>Current Drawbacks</h3>
