@@ -111,7 +111,8 @@ Input            |  Output
 `--minimap=0`            |  `--minimap=1`
 :-------------------------:|:-------------------------:
 ![input_img1](https://github.com/ArtLabss/tennis-tracking/blob/0f684fdeef96a715984dc74b62b961f68ff95edc/VideoOutput/ezgif.com-gif-maker.gif)  |  ![output_img1](https://github.com/ArtLabss/tennis-tracking/blob/main/VideoOutput/minimap.gif)
-<br>
+
+
 <h3>Further Developments</h3>
 <ul>
   <li><strike>Improve line detection of the court and remove overlapping lines</strike></li>
