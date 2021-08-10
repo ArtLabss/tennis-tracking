@@ -106,10 +106,10 @@ Input            |  Output
   <li>The algorithm now works practically with any court colors</li>
   <li>Faster algorithm</li>
   <li>Dynamic Mini-Map with players and ball added, to activate set <code>--minimap=1</code></li>
-<p align='center'>
-  <img src='https://github.com/ArtLabss/tennis-tracking/blob/327a128f52e5ded34ce507bb07310f56537c88cd/VideoOutput/minimap.gif'>
-</p>
-</ul>
+  </ul>
+  
+  :-------------------------:|:-------------------------:
+![input_img1](https://github.com/ArtLabss/tennis-tracking/blob/00cfe10b18db1e6a68800921dfbda010f90a74bb/VideoOutput/ezgif.com-gif-maker(3).gif)  |  ![output_img1](https://github.com/ArtLabss/tennis-tracking/blob/0f684fdeef96a715984dc74b62b961f68ff95edc/VideoOutput/minimap.gif)
 
 <h3>Further Developments</h3>
 <ul>
