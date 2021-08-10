@@ -105,12 +105,13 @@ Input            |  Output
   <li>Player detection improved</li>
   <li>The algorithm now works practically with any court colors</li>
   <li>Faster algorithm</li>
-  <li>Dynamic Mini-Map with players and ball added, to activate set <code>--minimap=1</code></li>
+  <li>Dynamic Mini-Map with players and ball added, to activate use argument <code>--minimap</code></li>
   </ul>
   
-  :-------------------------:|:-------------------------:
-![input_img1](https://github.com/ArtLabss/tennis-tracking/blob/00cfe10b18db1e6a68800921dfbda010f90a74bb/VideoOutput/ezgif.com-gif-maker(3).gif)  |  ![output_img1](https://github.com/ArtLabss/tennis-tracking/blob/0f684fdeef96a715984dc74b62b961f68ff95edc/VideoOutput/minimap.gif)
-
+`--minimap=0`            |  `--minimap=1`
+:-------------------------:|:-------------------------:
+![input_img1](https://github.com/ArtLabss/tennis-tracking/blob/0f684fdeef96a715984dc74b62b961f68ff95edc/VideoOutput/ezgif.com-gif-maker.gif)  |  ![output_img1](https://github.com/ArtLabss/tennis-tracking/blob/main/VideoOutput/minimap.gif)
+<br>
 <h3>Further Developments</h3>
 <ul>
   <li><strike>Improve line detection of the court and remove overlapping lines</strike></li>
