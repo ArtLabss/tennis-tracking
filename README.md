@@ -106,6 +106,7 @@ Input            |  Output
   <li>The algorithm now works practically with any court colors</li>
   <li>Faster algorithm</li>
   <li>Dynamic Mini-Map with players and ball added, to activate set <code>--minimap=1</code></li>
+  
 </ul>
 
 <h3>Further Developments</h3>
