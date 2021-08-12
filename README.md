@@ -1,5 +1,5 @@
 <p align='center'>
-  <img src='https://avatars.githubusercontent.com/u/81815589?s=200&v=4' width="120">
+  <img src='https://github.com/ArtLabss/tennis-tracking/blob/4c25e5f32f2e4ea526f4153226497c2b1ec1f128/VideoOutput/artlabs.png' >
 </p>
 
 <h1 align='center'>Tennis Tracking 🎾</h1>
