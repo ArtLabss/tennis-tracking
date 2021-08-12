@@ -1,4 +1,4 @@
-<h1 align='center'>Tennis Tracking</h1>
+<h1 align='center'>Tennis Tracking 🎾</h1>
 
 ![Forks](https://img.shields.io/github/forks/ArtLabss/tennis-tracking.svg)
 ![Stars](https://img.shields.io/github/stars/ArtLabss/tennis-tracking.svg)
