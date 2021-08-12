@@ -1,9 +1,21 @@
-<h1 align='center'>Tennis Tracking 🎾</h1>
+<p align='center'>
+  <img src='https://avatars.githubusercontent.com/u/81815589?s=200&v=4' width="120">
+</p>
 
+<h1 align='center'>Tennis Tracking 🎾</h1>
+<p align='center'>
+<img src="https://img.shields.io/github/forks/ArtLabss/tennis-tracking.svg"></a>
+  <img src="https://img.shields.io/github/stars/ArtLabss/tennis-tracking.svg"></a>
+  <img src="https://img.shields.io/github/watchers/ArtLabss/tennis-tracking.svg"></a>
+  <img src="https://img.shields.io/github/last-commit/ArtLabss/tennis-tracking.svg"></a>
+</p>
+
+<!-- 
 ![Forks](https://img.shields.io/github/forks/ArtLabss/tennis-tracking.svg)
 ![Stars](https://img.shields.io/github/stars/ArtLabss/tennis-tracking.svg)
 ![Watchers](https://img.shields.io/github/watchers/ArtLabss/tennis-tracking.svg)
-![Last Commit](https://img.shields.io/github/last-commit/ArtLabss/tennis-tracking.svg) 
+![Last Commit](https://img.shields.io/github/last-commit/ArtLabss/tennis-tracking.svg)  
+-->
 
 <h3>Objectives</h3>
 <ul>
