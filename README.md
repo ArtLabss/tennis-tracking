@@ -5,7 +5,7 @@
 ![Watchers](https://img.shields.io/github/watchers/ArtLabss/tennis-tracking.svg)
 ![Last Commit](https://img.shields.io/github/last-commit/ArtLabss/tennis-tracking.svg) 
 
-<h3>Objectvies</h3>
+<h3>Objectives</h3>
 <ul>
   <li>Track the ball </li>
   <li>Detect court lines </li>
