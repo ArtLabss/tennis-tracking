@@ -122,7 +122,7 @@ Input            |  Output
   
 `--minimap=0`            |  `--minimap=1`
 :-------------------------:|:-------------------------:
-![input_img1]()  |  ![output_img1](https://github.com/ArtLabss/tennis-tracking/blob/3124a8609b30deb557c1563c45febb1fd86c8956/VideoOutput/input3.gif)
+![input_img1](https://github.com/ArtLabss/tennis-tracking/blob/4b5ff2849b71af67023c4160c4f91481a6821bb3/VideoOutput/input6.gif)  |  ![output_img1](https://github.com/ArtLabss/tennis-tracking/blob/3124a8609b30deb557c1563c45febb1fd86c8956/VideoOutput/input3.gif)
 
 
 <h3>Further Developments</h3>
