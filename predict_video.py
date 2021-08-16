@@ -241,7 +241,7 @@ if minimap == 1:
   x, y = diff_xy(coords)
   remove_outliers(x, y, coords)
   # Interpolation
-  coords = iterpolation(coords)
+  coords = interpolation(coords)
   create_top_view(court_detector, detection_model, coords, fps)
   minimap_video = cv2.VideoCapture('VideoOutput/minimap.mp4')
   fps2 = int(minimap_video.get(cv2.CAP_PROP_FPS))
