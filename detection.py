@@ -435,7 +435,7 @@ def nan_helper(y):
     return np.isnan(y), lambda z: z.nonzero()[0]
 
 
-def iterpolation(coords):
+def interpolation(coords):
   coords =coords.copy()
   x, y = [x[0] if x is not None else np.nan for x in coords], [x[1] if x is not None else np.nan for x in coords]
 
