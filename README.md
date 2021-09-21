@@ -129,7 +129,7 @@ Input            |  Output
 </ul>
 
 <p>
-  To predict bounce points machine learning library for time series <a src="hhttps://www.sktime.org/en/stable/index.html">sktime</a> was used. Specifically, <a src="https://www.sktime.org/en/stable/examples/03_classification_multivariate.html#Time-series-concatenation">TimeSeriesForestClassifier</a> with 3 variable <code>x</code> coordinates of the ball, <code>y</code> coordinates and <code>V</code> for velocity (<code>V2-V1/t2-t1</code>)
+  To predict bounce points machine learning library for time series <a href="hhttps://www.sktime.org/en/stable/index.html">sktime</a> was used. Specifically, <a href="https://www.sktime.org/en/stable/examples/03_classification_multivariate.html#Time-series-concatenation">TimeSeriesForestClassifier</a> with 3 variable <code>x</code> coordinates of the ball, <code>y</code> coordinates and <code>V</code> for velocity (<code>V2-V1/t2-t1</code>)
 <p>
 
 `--bounce=0`            |  `--bounce=1`
