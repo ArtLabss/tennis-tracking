@@ -134,8 +134,8 @@ Input            |  Output
 
 <p align="center">
   <kbd>
-  <img src="https://github.com/ArtLabss/tennis-tracking/blob/a6f395716dc5a076bfb2fc49f97db96a2004efed/VideoOutput/9bounces.gif">
-   </kbd>
+  <img width=500 src="https://github.com/ArtLabss/tennis-tracking/blob/a6f395716dc5a076bfb2fc49f97db96a2004efed/VideoOutput/9bounces.gif">
+  </kbd>
 </p>
 
 
