@@ -128,6 +128,8 @@ Input            |  Output
   <li>By specifiying <code>--bounce=1</code> bounce points can be detected and displayed</li>
 </ul>
 
+![bounces](https://github.com/ArtLabss/tennis-tracking/blob/a1b51da03c39e44abbad65b808b7382f56268717/VideoOutput/9bounces.gif)
+
 
 <h3>Further Developments</h3>
 <ul>
