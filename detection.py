@@ -394,6 +394,29 @@ def calculate_feet_positions(self, court_detector):
   return smoothed_1, smoothed_2
 
 
+# def create_top_view(court_detector, detection_model, xy, fps):
+#     """
+#     Creates top view video of the gameplay
+#     """
+#     coords = xy[:]
+#     court = court_detector.court_reference.court.copy()
+#     court = cv2.line(court, *court_detector.court_reference.net, 255, 5)
+#     v_width, v_height = court.shape[::-1]
+#     court = cv2.cvtColor(court, cv2.COLOR_GRAY2BGR)
+#     out = cv2.VideoWriter('VideoOutput/minimap.mp4',cv2.VideoWriter_fourcc('X', 'V', 'I', 'D'), fps, (v_width, v_height))
+#     # players location on court
+#     smoothed_1, smoothed_2 = detection_model.calculate_feet_positions(court_detector)
+#     i = 0 
+#     for feet_pos_1, feet_pos_2 in zip(smoothed_1, smoothed_2):
+#         frame = court.copy()
+#         frame = cv2.circle(frame, (int(feet_pos_1[0]), int(feet_pos_1[1])), 45, (255, 0, 0), -1)
+#         if feet_pos_2[0] is not None:
+#             frame = cv2.circle(frame, (int(feet_pos_2[0]), int(feet_pos_2[1])), 45, (255, 0, 0), -1)
+#         draw_ball_position(frame, court_detector, coords[i], i)
+#         i += 1
+#         out.write(frame)
+#     out.release()
+
 def create_top_view(court_detector, detection_model, xy, fps):
     """
     Creates top view video of the gameplay
@@ -467,8 +490,24 @@ def diff_xy(coords):
   
   return xx, yy
 
+# def remove_outliers(x, y, coords):
+#   ids = set(np.where(x > 50)[0]) | set(np.where(y > 50)[0])
+#   for id in ids:
+#     left, middle, right = coords[id-1], coords[id], coords[id+1]
+#     if left is None:
+#       left = [0]
+#     if  right is None:
+#       right = [0]
+#     if middle is None:
+#       middle = [0]
+#     MAX = max(left, middle, right)
+#     if MAX == [0]:
+#       pass
+#     else:
+#       coords[coords.index(MAX)] = None
+
 def remove_outliers(x, y, coords):
-  ids = set(np.where(x > 50)[0]) | set(np.where(y > 50)[0])
+  ids = set(np.where(x > 50)[0]) & set(np.where(y > 50)[0])
   for id in ids:
     left, middle, right = coords[id-1], coords[id], coords[id+1]
     if left is None:
@@ -477,8 +516,14 @@ def remove_outliers(x, y, coords):
       right = [0]
     if middle is None:
       middle = [0]
-    MAX = max(left, middle, right)
-    coords[coords.index(MAX)] = None
+    MAX = max(map(list, (left, middle, right)))
+    if MAX == [0]:
+      pass
+    else:
+      try:
+        coords[coords.index(tuple(MAX))] = None
+      except ValueError:
+        coords[coords.index(MAX)] = None
 
 
 if __name__ == "__main__":
