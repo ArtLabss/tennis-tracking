@@ -127,11 +127,10 @@ Input            |  Output
 <ul>
   <li>By specifiying <code>--bounce=1</code> bounce points can be detected and displayed</li>
 </ul>
-<p align='center'>
-  <kbd>
-  <img src="https://github.com/ArtLabss/tennis-tracking/blob/a1b51da03c39e44abbad65b808b7382f56268717/VideoOutput/9bounces.gif">
-  </kbd>
-</p>
+
+`--bounce=0`            |  `--bounce=1`
+:-------------------------:|:-------------------------:
+![input_img1](https://github.com/ArtLabss/tennis-tracking/blob/a6f395716dc5a076bfb2fc49f97db96a2004efed/VideoOutput/ezgif.com-gif-maker.gif)  |  ![output_img1](https://github.com/ArtLabss/tennis-tracking/blob/a6f395716dc5a076bfb2fc49f97db96a2004efed/VideoOutput/9bounces.gif)
 
 <h3>Further Developments</h3>
 <ul>
