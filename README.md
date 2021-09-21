@@ -125,7 +125,7 @@ Input            |  Output
 ![input_img1](https://github.com/ArtLabss/tennis-tracking/blob/4b5ff2849b71af67023c4160c4f91481a6821bb3/VideoOutput/input6.gif)  |  ![output_img1](https://github.com/ArtLabss/tennis-tracking/blob/3124a8609b30deb557c1563c45febb1fd86c8956/VideoOutput/input3.gif)
 
 <ul>
-  <li>By specifiying `--bounce=1` bounce points can be detected and displayed</li>
+  <li>By specifiying <code>--bounce=1</code> bounce points can be detected and displayed</li>
 </ul>
 
 
