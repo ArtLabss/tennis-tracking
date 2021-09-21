@@ -128,6 +128,10 @@ Input            |  Output
   <li>By specifiying <code>--bounce=1</code> bounce points can be detected and displayed</li>
 </ul>
 
+<p>
+  To predict bounce points machine learning library for time series <a src="hhttps://www.sktime.org/en/stable/index.html">sktime</a> was used. Specifically, <a src="https://www.sktime.org/en/stable/examples/03_classification_multivariate.html#Time-series-concatenation">TimeSeriesForestClassifier</a> with 3 variable <code>x</code> coordinates of the ball, <code>y</code> coordinates and <code>V</code> for velocity (<code>V2-V1/t2-t1</code>)
+<p>
+
 `--bounce=0`            |  `--bounce=1`
 :-------------------------:|:-------------------------:
 ![input_img1](https://github.com/ArtLabss/tennis-tracking/blob/a6f395716dc5a076bfb2fc49f97db96a2004efed/VideoOutput/ezgif.com-gif-maker.gif)  |  ![output_img1](https://github.com/ArtLabss/tennis-tracking/blob/a6f395716dc5a076bfb2fc49f97db96a2004efed/VideoOutput/9bounces.gif)
@@ -150,7 +154,6 @@ Input            |  Output
 </ul>
  
      
-
     
 <h3>References</h3>
 - Yu-Chuan Huang, "TrackNet: Tennis Ball Tracking from Broadcast Video by Deep Learning Networks," Master Thesis, advised by Tsì-Uí İk and Guan-Hua Huang, National Chiao Tung University, Taiwan, April 2018. 
