@@ -138,6 +138,10 @@ Input            |  Output
   </kbd>
 </p>
 
+<p>
+  Currently, overall model's performance is <bold>95%</bold>. 
+</p>
+
 
 <h3>Further Developments</h3>
 <ul>
