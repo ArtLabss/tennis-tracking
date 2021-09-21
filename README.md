@@ -131,8 +131,7 @@ Input            |  Output
   <li><strike>Algorithm fails to detect players when the court colors aren't similar to the sample video</strike></li>
   <li><strike>Don't detect the ballboys/ballgirls</strike></li>
   <li><strike>Don't contour the banners</strike></li>
-  <li>Detect players on videos with different angles</li>
-  <li>Find the coordinates of the ball touching the court and display them</li>
+  <li><strike>Find the coordinates of the ball touching the court and display them</strike></li>
   <li>Code Optimization</li>
   <li><strike>Dynamic court mini-map with players and the ball</strike></li>
 </ul>
