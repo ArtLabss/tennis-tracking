@@ -140,7 +140,7 @@ Input            |  Output
 </p>
 
 <p>
-  Currently, overall model's performance is <bold>95%</bold>. 
+  Currently, overall model's performance is <strong>95%</strong>. 
 </p>
 
 
