@@ -72,7 +72,7 @@ Input            |  Output
   <li>If you are using Google Colab upload all the files to Google Drive</li>
   
    <li>
-    Create a Google Colaboratory Notebook in the same directory as <code>predict_video.py</code> and connect it to Google drive
+    Create a Google Colaboratory Notebook in the same directory as <code>predict_video.py</code>, change Runtime Type to <strong>GPU</strong> and connect it to Google drive
   </li>
   
   ```python
