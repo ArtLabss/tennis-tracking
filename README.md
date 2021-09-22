@@ -86,7 +86,7 @@ Input            |  Output
   
   ```python
   import os 
-  os.chdir('MyDrive/Colab Notebooks/tennis-tracking')
+  os.chdir('drive/MyDrive/Colab Notebooks/tennis-tracking')
   ```
   
   <li>
