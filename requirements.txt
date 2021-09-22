@@ -1,7 +1,7 @@
 requests==2.23.0
 opencv_contrib_python==4.1.2.30
 scipy==1.4.1
-Keras==2.4.3
+keras==2.6.0
 pandas==1.1.5
 torch==1.9.0+cu102
 Flask==1.1.4
