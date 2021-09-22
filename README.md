@@ -90,11 +90,12 @@ Input            |  Output
   ```
   
   <li>
-    Install the requirements
+    Install only 2 requirements, because Colab already has the rest
   </li>
   
   ```python
-  !pip install -r requirements.txt
+  !pip install filterpy
+  !pip install sktime
   ```
   
   <li>
