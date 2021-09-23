@@ -94,8 +94,7 @@ Input            |  Output
   </li>
   
   ```python
-  !pip install filterpy
-  !pip install sktime
+  !pip install filterpy sktime
   ```
   
   <li>
