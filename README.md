@@ -48,7 +48,7 @@ Input            |  Output
   </li>
   
   ```git
-  git clone https://github.com/ArtLabss/tennis-tracking
+  git clone https://github.com/ArtLabss/tennis-tracking.git
   ```
   
    <li>
