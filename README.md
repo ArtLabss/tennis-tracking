@@ -68,7 +68,7 @@ Input            |  Output
   </li>
   
   ```python
-  python predict_video.py --input_video_path=VideoInput/video_input3.mp4 --output_video_path=VideoOutput/video_output.mp4 --minimap=0 --bounce=0
+  python3 predict_video.py --input_video_path=VideoInput/video_input3.mp4 --output_video_path=VideoOutput/video_output.mp4 --minimap=0 --bounce=0
   ```
   
   <li>If you are using Google Colab upload all the files to Google Drive</li>
