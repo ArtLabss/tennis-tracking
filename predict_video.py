@@ -116,7 +116,7 @@ while True:
     
     for i in range(0, len(lines), 4):
       x1, y1, x2, y2 = lines[i],lines[i+1], lines[i+2], lines[i+3]
-      cv2.line(frame, (x1,y1),(x2,y2), (0,0,255), 5)
+      cv2.line(frame, (int(x1),int(y1)),(int(x2),int(y2)), (0,0,255), 5)
     new_frame = cv2.resize(frame, (v_width, v_height))
     frames.append(new_frame)
   else:
