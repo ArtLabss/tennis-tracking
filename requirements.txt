@@ -12,3 +12,4 @@ gradio==2.1.0
 Pillow==8.3.0
 filterpy==1.4.5
 sktime==0.8.0
+sympy==1.9
