@@ -6,7 +6,10 @@ from itertools import combinations
 from court_reference import CourtReference
 import scipy.signal as sp
 
-from google.colab.patches import cv2_imshow
+try:
+  from google.colab.patches import cv2_imshow
+except:
+  pass
 
 
 class CourtDetector:
