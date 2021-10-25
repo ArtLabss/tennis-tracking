@@ -13,3 +13,4 @@ Pillow==8.3.0
 filterpy==1.4.5
 sktime==0.8.0
 sympy==1.9
+scikit-image==0.18.3
