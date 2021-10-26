@@ -164,7 +164,11 @@ Input            |  Output
   <li>Algorithm works only on official match videos</li>
 </ul>
  
-     
+<h3>Helpful Repositories</h3>
+<ul>
+  <li><a href="https://github.com/MaximeBataille/tennis_tracking">Tennis Tracking</a> @MaximeBataille</li>
+  <li><a href="https://github.com/avivcaspi/TennisProject">Tennis Project</a> @avivcaspi</li>
+</ul>
     
 <h3>References</h3>
 - Yu-Chuan Huang, "TrackNet: Tennis Ball Tracking from Broadcast Video by Deep Learning Networks," Master Thesis, advised by Tsì-Uí İk and Guan-Hua Huang, National Chiao Tung University, Taiwan, April 2018. 
