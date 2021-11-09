@@ -170,7 +170,10 @@ Input            |  Output
   <li><a href="https://github.com/avivcaspi/TennisProject">Tennis Project</a> @avivcaspi</li>
   <li><a href="https://nol.cs.nctu.edu.tw:234/open-source/TrackNet/tree/master/Code_Python3">TrackNet</a></li>
 </ul>
-    
+
+<h3>Contribution</h3>
+<p>If you would like to contribute, check out the <a href="https://github.com/ArtLabss/tennis-tracking/blob/main/CONTRIBUTING.md">CONTRIBUTING.md</a>. Contributing is easy!</p>
+
 <h3>References</h3>
 
 - Yu-Chuan Huang, "TrackNet: Tennis Ball Tracking from Broadcast Video by Deep Learning Networks," Master Thesis, advised by Tsì-Uí İk and Guan-Hua Huang, National Chiao Tung University, Taiwan, April 2018. 
