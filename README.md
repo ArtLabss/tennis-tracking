@@ -4,10 +4,14 @@
 
 <h1 align='center'>Tennis Tracking 🎾</h1>
 <p align='center'>
-<img src="https://img.shields.io/github/forks/ArtLabss/tennis-tracking.svg"></a>
-  <img src="https://img.shields.io/github/stars/ArtLabss/tennis-tracking.svg"></a>
-  <img src="https://img.shields.io/github/watchers/ArtLabss/tennis-tracking.svg"></a>
-  <img src="https://img.shields.io/github/last-commit/ArtLabss/tennis-tracking.svg"></a>
+  <img src="https://img.shields.io/github/forks/ArtLabss/tennis-tracking.svg">
+  <img src="https://img.shields.io/github/stars/ArtLabss/tennis-tracking.svg">
+  <img src="https://img.shields.io/github/watchers/ArtLabss/tennis-tracking.svg">
+  
+  <br>
+  
+  <img src="https://img.shields.io/github/last-commit/ArtLabss/tennis-tracking.svg">
+  <img src="https://img.shields.io/badge/license-Unlicense-blue.svg">
 </p>
 
 <!-- 
