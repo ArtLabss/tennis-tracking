@@ -12,7 +12,7 @@
   
   <img src="https://img.shields.io/github/last-commit/ArtLabss/tennis-tracking.svg">
   <img src="https://img.shields.io/badge/license-Unlicense-blue.svg">
-  <p align="center">With :heartpulse: by <a href="https://artlabs.tech/">ArtLabs</a></p>
+  <p align="center">With :heartpulse: by ArtLabs</p>
   
 </p>
 <br>
@@ -30,7 +30,7 @@
   <li>Detect the players</li>
 </ul>
 
-<p>To track the ball we used <a href='https://nol.cs.nctu.edu.tw:234/open-source/TrackNet'>TrackNet</a> - deep learning network for tracking high-speed objects. For players detection yolov3 was used.</p>
+<p>To track the ball we used <a href='https://nol.cs.nctu.edu.tw:234/open-source/TrackNet'>TrackNet</a> - deep learning network for tracking high-speed objects. For players detection yolov3 was used. See <a href="https://artlabs.tech/projects/"> ArtLabs/projects</a> for more or similar projects.</p>
 
 
 <h3>Example using <a href="https://github.com/ArtLabss/tennis-tracking/tree/main/VideoInput">sample videos</a></h3>
