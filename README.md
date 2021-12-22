@@ -12,7 +12,7 @@
   
   <img src="https://img.shields.io/github/last-commit/ArtLabss/tennis-tracking.svg">
   <img src="https://img.shields.io/badge/license-Unlicense-blue.svg">
-  <img src="http://hits.dwyl.com/ArtLabss/tennis-tracking.svg"><br>
+  <img src="http://hits.dwyl.com/ArtLabss/tennis-tracking.svg?style=flat"><br>
   With :heartpulse: by ArtLabs
   
 </p>
