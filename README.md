@@ -11,7 +11,8 @@
   <br>
   
   <img src="https://img.shields.io/github/last-commit/ArtLabss/tennis-tracking.svg">
-  <img src="https://img.shields.io/badge/license-Unlicense-blue.svg"><br>
+  <img src="https://img.shields.io/badge/license-Unlicense-blue.svg">
+  <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FArtLabss%2Ftennis-tracking&count_bg=%237EE431&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=views&edge_flat=false"/><br>
   With :heartpulse: by ArtLabs
   
 </p>
