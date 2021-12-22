@@ -178,7 +178,8 @@ Input            |  Output
 </ul>
 
 <h3>Contribution</h3>
-<p>If you would like to contribute, check out the <a href="https://github.com/ArtLabss/tennis-tracking/blob/main/CONTRIBUTING.md">CONTRIBUTING.md</a>. Contributing is easy!</p>
+
+<p><a href="https://artlabs.tech/">ArtLabss</a> goals are to be helpful, welcoming, and effective. Help us by contributing, check out the <a href="https://github.com/ArtLabss/tennis-tracking/blob/main/CONTRIBUTING.md">CONTRIBUTING.md</a>. Contributing is easy!</p>
 
 <h3>References</h3>
 
