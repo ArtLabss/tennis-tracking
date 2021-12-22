@@ -11,11 +11,11 @@
   <br>
   
   <img src="https://img.shields.io/github/last-commit/ArtLabss/tennis-tracking.svg">
-  <img src="https://img.shields.io/badge/license-Unlicense-blue.svg">
-  <p align="center">With :heartpulse: by ArtLabs</p>
+  <img src="https://img.shields.io/badge/license-Unlicense-blue.svg"><br>
+  With :heartpulse: by ArtLabs
   
 </p>
-<br>
+
 <!-- 
 ![Forks](https://img.shields.io/github/forks/ArtLabss/tennis-tracking.svg)
 ![Stars](https://img.shields.io/github/stars/ArtLabss/tennis-tracking.svg)
