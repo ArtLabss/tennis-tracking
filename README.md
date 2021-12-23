@@ -14,7 +14,7 @@
   <img src="https://img.shields.io/badge/license-Unlicense-blue.svg">
   <img src="https://hits.sh/github.com/ArtLabss/tennis-tracking.svg"/>
   <br>
-  With :heartpulse: by ArtLabs
+  <code>With ❤️ by ArtLabs</code>
   
 </p>
 
