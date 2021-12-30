@@ -151,7 +151,7 @@ Input            |  Output
 </p>
 
 <p>
-  The model predicts true negatives (not bounce) with accuracy of <strong>98%</strong> and true positives (bounce) with <strong>83%</strong>. As a result, one or two bounces might be overlooked by the model.
+  The model predicts true negatives (not bounce) with accuracy of <strong>98%</strong> and true positives (bounce) with <strong>83%</strong>.
 </p>
 
 
