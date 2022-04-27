@@ -134,16 +134,12 @@ Input            |  Output
 :-------------------------:|:-------------------------:
 ![input_img1](https://github.com/ArtLabss/tennis-tracking/blob/4b5ff2849b71af67023c4160c4f91481a6821bb3/VideoOutput/input6.gif)  |  ![output_img1](https://github.com/ArtLabss/tennis-tracking/blob/3124a8609b30deb557c1563c45febb1fd86c8956/VideoOutput/input3.gif)
 
+<p>
+  To predict bounce points machine learning library for time series <a href="https://www.sktime.org/en/stable/index.html">sktime</a> was used. Specifically, <a href="https://github.com/ArtLabss/tennis-tracking/blob/90652b4547311423ea49c4195dde9da9a81f1893/clf.pkl">TimeSeriesForestClassifier</a> was trained on 3 variables:  <code>x</code>, <code>y</code> coordinates of the ball and <code>V</code> for velocity (<code>V2-V1/t2-t1</code>). Data for training the model - <a href="https://github.com/ArtLabss/tennis-tracking/blob/main/bigDF.csv" >df.csv</a>
+<p>
 <ul>
   <li>By specifiying <code>--bounce=1</code> bounce points can be detected and displayed</li>
 </ul>
-
-<p>
-  To predict bounce points machine learning library for time series <a href="https://www.sktime.org/en/stable/index.html">sktime</a> was used. Specifically, <a href="https://github.com/ArtLabss/tennis-tracking/blob/90652b4547311423ea49c4195dde9da9a81f1893/clf.pkl">TimeSeriesForestClassifier</a> was trained on 3 variables:  <code>x</code>, <code>y</code> coordinates of the ball and <code>V</code> for velocity (<code>V2-V1/t2-t1</code>). 
-  
-  Data for training the model - <a href="https://github.com/ArtLabss/tennis-tracking/blob/main/bigDF.csv" >df.csv</a>
-<p>
-
 <p align="center">
   <kbd>
   <img width=500 src="https://github.com/ArtLabss/tennis-tracking/blob/a6f395716dc5a076bfb2fc49f97db96a2004efed/VideoOutput/9bounces.gif">
