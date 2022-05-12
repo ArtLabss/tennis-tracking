@@ -164,7 +164,7 @@ Input            |  Output
 
 <h3>Current Drawbacks</h3>
 <ul>
-  <li>Slow algorithms (to process 15 seconds video (6.1 Mb) it takes <strike>28 minutes</strike> 16 minutes)</li>
+  <li>Slow algorithms (to process 15 seconds video (6.1 Mb) it takes <strike>28 minutes</strike> 16 minutes)<br><ul><li>Instead of writing a new video, a faster way would be to show the frame right after it has been processed</li></ul></li>
   <li>Algorithm works only on official match videos</li>
 </ul>
  
