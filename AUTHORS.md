@@ -2,8 +2,8 @@
 
 
 Development Lead
-* Artyom Kulakov <art_kulak@mail.ru>
-* Sabzaliev Shakhansho <shakhansho.sabzaliev_2023@ucentralasia.org> 
+* Artyom Kulakov <art@artlabs.tech>
+* Sabzaliev Shakhansho <shukurs@artlabs.tech> 
 
 
 
