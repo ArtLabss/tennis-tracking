@@ -46,79 +46,71 @@ Input            |  Output
 
 <h3>How to run</h3>
 
-<p>This project requires compatible <b>GPU</b> to install tensorflow, you can run it on your local machine in case you have one or use <a href='https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwissLL5-MvxAhXwlYsKHbkBDEUQFnoECAMQAw&url=https%3A%2F%2Fcolab.research.google.com%2Fnotebooks%2F&usg=AOvVaw0eDNVclINNdlOuD-YTYiiB'>Google Colaboratory</a> with <b>Runtime Type</b> changed to <b>GPU</b>.</p>
+Running this project requires a compatible GPU with tensorflow installed, this can be done on your local machine or on [Google Colab](https://colab.research.google.com/notebooks) by following the steps below.
 
-- [ ] Input videos have to be rallies of the game and shouldn't contain any <strong>commercials, breaks or spectators</strong>.
-  
-<ol>
-  <li>
-    Clone this repository
-  </li>
-  
-  ```git
-  git clone https://github.com/ArtLabss/tennis-tracking.git
-  ```
-  
-   <li>
-     Download yolov3 weights (237 MB) from <a href="https://pjreddie.com/media/files/yolov3.weights">here</a> and add it to your <a href="/Yolov3">Yolov3 folder</a>.
-  </li>
-  
-  <li>
-    Install the requirements using pip 
-  </li>
-  
-  ```python
-  pip install -r requirements.txt
-  ```
-  
-   <li>
-    Run the following command in the command line
-  </li>
-  
-  ```python
-  python3 predict_video.py --input_video_path=VideoInput/video_input3.mp4 --output_video_path=VideoOutput/video_output.mp4 --minimap=0 --bounce=0
-  ```
-  
-  <li>If you are using Google Colab upload all the files to Google Drive, including yolov3 weights from step <strong>2.</strong></li>
-  
-   <li>
-    Create a Google Colaboratory Notebook in the same directory as <code>predict_video.py</code>, change Runtime Type to <strong>GPU</strong> and connect it to Google drive
-  </li>
-  
-  ```python
-  from google.colab import drive
-  drive.mount('/content/drive')
-  ```
-  
-  <li>
-    Change the working directory to the one where the Colab Notebook and <code>predict_video.py</code> are. In my case,
-  </li>
-  
-  ```python
-  import os 
-  os.chdir('drive/MyDrive/Colab Notebooks/tennis-tracking')
-  ```
-  
-  <li>
-    Install only 2 requirements, because Colab already has the rest
-  </li>
-  
-  ```python
-  !pip install filterpy sktime
-  ```
-  
-  <li>
-    Inside the notebook run <code>predict_video.py</code>
-  </li>
-  
-  ```
-   !python3 predict_video.py --input_video_path=VideoInput/video_input3.mp4 --output_video_path=VideoOutput/video_output.mp4 --minimap=0 --bounce=0
-  ```
-  
-  <p>After the compilation is completed, a new video will be created in <a href="/VideoOutput" target="_blank">VideoOutput folder</a> if <code>--minimap</code> was set <code>0</code>, if <code>--minimap=1</code> three videos will be created: video of the game, video of minimap and a combined video of both</p>
-  <p><i>P.S. If you stumble upon an <b>error</b> or have any questions feel free to open a new <a href='https://github.com/ArtLabss/tennis-tracking/issues'>Issue</a> </i></p>
-  
-</ol>
+<a target="_blank" href="https://colab.research.google.com/github/ArtLabss/tennis-tracking/blob/main/Tennis_Tracking_Colab_Setup.ipynb">
+  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+</a>
+
+**1. Set Up Your Environment**
+- Ensure your Google Colab session is set to use a GPU. You can do this by going to `Runtime` > `Change runtime type` and selecting one of the GPU options as the hardware accelerator.
+
+**2. Clone the Repository**
+- Clone the Tennis Tracking repository directly into your Colab environment.
+```python
+!git clone https://github.com/ArtLabss/tennis-tracking.git
+```
+
+**3. YOLOv3 Weights Download**
+- Use the following command to download the YOLOv3 weights directly into the Yolov3 folder within your cloned repository.
+```python
+!wget https://pjreddie.com/media/files/yolov3.weights -P tennis-tracking/Yolov3/
+```
+
+**4. Install Dependencies**
+- Install the required libraries. Google Colab already includes many dependencies, so you may only need to install a few missing ones.
+```python
+!pip install -r tennis-tracking/requirements.txt filterpy sktime
+```
+- For any specific dependencies not included in the requirements file but necessary for Colab, install them using `!pip install` commands.
+
+**5. Prepare Your Input Video**
+- Upload your video to Google Drive or directly to Colab using the sidebar. If using Google Drive, mount your drive:
+```python
+from google.colab import drive
+drive.mount('/content/drive')
+```
+- Make sure your input video follows the guidelines (e.g., contains only game rallies, no commerical breaks).
+
+**6. Running the Script**
+- Change the directory to the cloned repository's root.
+```python
+import os
+os.chdir('/content/tennis-tracking')
+```
+- Execute the script with the necessary arguments. Here, replace `path_to_your_video` with the actual path to your video in Colab or Google Drive.
+```python
+!python predict_video.py --input_video_path=path_to_your_video --output_video_path=VideoOutput/video_output.mp4 --minimap=0 --bounce=0
+```
+
+### Additional Tips
+- **Automating Video Uploads:** Use the Colab file upload utility to upload videos directly to your Colab session.
+```python
+from google.colab import files
+uploaded = files.upload()
+# Follow the prompt to select and upload your video file.
+```
+
+- **Accessing Output Videos:** Output videos are saved in the specified `VideoOutput` directory within the Colab environment. You can download them to your local machine using:
+```python
+from google.colab import files
+files.download('VideoOutput/video_output.mp4')
+# Replace 'VideoOutput/video_output.mp4' with the correct path if needed.
+```
+
+- **Troubleshooting:** If you encounter errors or issues, check the console output for any messages indicating missing dependencies or errors in the script. You can also refer to the [project's issues page](https://github.com/ArtLabss/tennis-tracking/issues) for solutions or to report new issues.
+
+By following these streamlined steps, you can set up and run the Tennis Tracking project on Google Colab.
 
 
 <h3>What's new?</h3>
