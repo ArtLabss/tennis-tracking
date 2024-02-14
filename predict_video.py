@@ -273,7 +273,7 @@ for _ in range(3):
 # interpolation
 coords = interpolation(coords)
 
-# velocty 
+# velocity 
 Vx = []
 Vy = []
 V = []
